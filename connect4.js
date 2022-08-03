@@ -37,8 +37,8 @@ function makeHtmlBoard() {
   top.addEventListener("click", handleClick);
 
   //creates clickable columns to deposit pieces in
-  for (var x = 0; x < WIDTH; x++) {
-    var headCell = document.createElement("td");
+  for (let x = 0; x < WIDTH; x++) {
+    let headCell = document.createElement("td");
     headCell.setAttribute("id", x);
     top.append(headCell);
   }
